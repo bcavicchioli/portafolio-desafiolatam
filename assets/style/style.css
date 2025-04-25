@@ -1,0 +1,57 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+p.footer{
+    position: absolute;
+    top: -95px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.carousel-fade .carousel-item {
+	opacity: 0;
+	transition-duration: .6s;
+	transition-property: opacity;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+	opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-prev {
+	transform: translateX(0);
+	transform: translate3d(0, 0, 0);
+}
+.card-footer {
+	background: transparent;
+	border-top: 0px;
+	bottom:0;
+	width:100%;
+}
+.carousel-fade .active.carousel-item-right {
+	opacity: 0;
+}
+
+.bg-navy {
+    background-color: #001f3f !important; /* Azul marino */
+}
+
+
+.carousel-inner img {
+
+    height: 20rem;           /* Cambia este valor según el tamaño deseado */
+    object-fit: cover;
+}
+
+.text-navy {
+    color: #001f3f  /* Azul marino */
+}
