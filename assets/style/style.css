@@ -33,7 +33,7 @@ p.footer{
 }
 .card-footer {
 	background: transparent;
-	border-top: 0px;
+	border-top: 0rem;
 	bottom:0;
 	width:100%;
 }
@@ -54,4 +54,9 @@ p.footer{
 
 .text-navy {
     color: #001f3f  /* Azul marino */
+}
+
+.mapp{
+	padding:1rem;
+
 }
