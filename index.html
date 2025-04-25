@@ -1,86 +1,114 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> CV Bruno Cavicchioli Nuñez</title>
-    <link rel="stylesheet" href="styles/style.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV Bruno Cavicchioli Núñez</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
     <div class="container">
-        <header>
-            <h1><strong>Bruno Cavicchioli</strong></h1>
-            <img src="img/Bruno Cavicchioli.jpg" alt="Bruno Cavicchioli">
-        </header>
+      <a class="navbar-brand fw-bold" href="#">Bruno Cavicchioli</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#resumen">Resumen</a></li>
+          <li class="nav-item"><a class="nav-link" href="#educacion">Educación</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portafolio">Portafolio</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-        <section >
-            <h2 >Resumen</h2>
-            <p>Product Owner del Poder Judicial de Chile, liderando la transformación digital y la innovación tecnológica para potenciar los procesos judiciales. Con formación en Ingeniería Civil Industrial, me especializo en gestionar proyectos TI, alineando estrategias con objetivos organizacionales e impulsando la eficiencia a través de la automatización.
-.            </p>
-        </section>
-        <section >
-            <h2>Datos personales</h2>
-            <p><strong>Email:</strong> bruno.cavicchioli@usach.cl</p>
-            <p><strong>Telefono:</strong> +569 93890936</p>
-            <p><strong>Linkedin</strong> <a href="https://www.linkedin.com/in/bruno-cavicchioli-nunez/">Ingresar a perfil</a></p>
-        </section>
+  <!-- HEADER HERO -->
+  <header class="bg-light py-5 text-center">
+    <div class="container">
+      <img src="img/Bruno Cavicchioli.jpg" alt="Bruno Cavicchioli" class="img-thumbnail rounded-circle mb-3" style="width: 150px;">
+      <h1 class="display-5 fw-bold">Bruno Cavicchioli Núñez</h1>
+      <p class="lead text-muted">Product Owner | Ingeniería | Tecnología Judicial</p>
+    </div>
+  </header>
 
-        <section >
-            <h2 >Experiencia profesional </h2>
-            <ol>
-                <li>
-                    <strong>Jefe de Area de Fabrica</strong><strong> Poder Judicial</strong> (oct 2024 - actualidad)
-                    <p>Responsabilidades</p>
-                    <ul>
-                        <li>Asesoramiento y coordinación con órganos jurisdiccionales y administrativos en materia tecnológica.</li>
-                        <li>Gestión del diseño, implementación y mantención de sistemas informáticos.</li>
-                        <li>Liderazgo de equipos de desarrolladores y administración de proyectos informáticos, asegurando calidad, plazos y uso eficiente de recursos.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Product Owner </strong><strong>Poder Judicial </strong> ( sep 2021 - oct 2024)
-                    <p>Responsabilidades</p>
-                    <ul>
-                        <li>Estrategia de productos: Identificando oportunidades de mercado, analizando la competencia y desarrollando hojas de ruta claras para la evolución continua del producto.</li>
-                        <li>Comunicación eficiente: Traduciendo conceptos técnicos en términos comprensibles para fomentar una comunicación fluida entre los equipos de desarrollo y no técnicos</li>
-                    </ul>
-                </li>
-            <ol>
-        </section>
+  <!-- MAIN CONTENT -->
+  <main class="container my-5">
 
-        <section >
-            <h2  alt="Educación">Educación </h2>
-            <ul>
-                <li>
-                    <strong>Ingeniero Civil Industrial </strong> en <strong>Universidad de Santiago de Chile</strong> (2017)
-                </li>
-                <li>
-                    <strong>Licenciado en ciencias de ingenieria</strong> en <strong>Universidad de Santiago de Chile</strong> (2014)
-                </li>
-            </ul>
-        </section>
+    <section id="resumen" class="mb-5">
+      <h2 class="section-title">Resumen</h2>
+      <p>Product Owner del Poder Judicial de Chile, liderando la transformación digital e innovación tecnológica. Con formación en Ingeniería Civil Industrial, me especializo en proyectos TI, alineando la tecnología con la estrategia institucional y mejorando procesos mediante automatización.</p>
+    </section>
 
-        <section class="section" alt="experiencia">
-            <h2>Premios y reconocimientos</h2>
-            <ul>
-               <li>Premio al Mérito Académico: Reconocimiento por obtener el primer lugar en la carrera de Ingeniería Civil Industrial.
-            </li>
-               <li>Distinción por Proyecto de Titulación: Desarrollo de un sistema de optimización basado en inteligencia artificial, aplicado en la gestión de recursos industriales.
-            </li>
-               <li>Beca de Excelencia Académica: Otorgada por mantener un promedio superior al 6.5 durante toda la carrera.
-            </li>
-               <li>Certificación de Liderazgo Ágil: Otorgada por la dirección de equipos de desarrollo bajo metodologías ágiles en proyectos tecnológicos.
-            </li>
-            </ul>
-        </section>
-		</div>
-<footer>
-        <section >
-            <h2 >Referencia</h2>
-          <a href="Portafolio.html" alt="Portafolio">Portafolio de proyectos </a>
-        </section>
-	
-</footer>
+    <section class="mb-5">
+      <h2 class="section-title">Datos Personales</h2>
+      <ul class="list-unstyled">
+        <li><strong>Email:</strong> bruno.cavicchioli@usach.cl</li>
+        <li><strong>Teléfono:</strong> +56 9 9389 0936</li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/bruno-cavicchioli-nunez/" target="_blank">Ver perfil</a></li>
+      </ul>
+    </section>
+
+    <section id="experiencia" class="mb-5">
+      <h2 class="section-title">Experiencia Profesional</h2>
+      <div class="card mb-3 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Jefe de Área de Fábrica – Poder Judicial <span class="text-muted">(Oct 2024 - Actualidad)</span></h5>
+          <ul>
+            <li>Asesoría tecnológica y coordinación con unidades judiciales.</li>
+            <li>Gestión de desarrollo, soporte y modernización de sistemas informáticos.</li>
+            <li>Liderazgo de equipos TI y metodologías ágiles.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Product Owner – Poder Judicial <span class="text-muted">(Sep 2021 - Oct 2024)</span></h5>
+          <ul>
+            <li>Definición de roadmap y visión de productos digitales.</li>
+            <li>Puente entre equipos técnicos y usuarios clave.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="educacion" class="mb-5">
+      <h2 class="section-title">Educación</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Ingeniero Civil Industrial – Universidad de Santiago de Chile (2017)</li>
+        <li class="list-group-item">Licenciado en Ciencias de la Ingeniería – Universidad de Santiago de Chile (2014)</li>
+      </ul>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="section-title">Premios y Reconocimientos</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Premio al Mérito Académico – 1° lugar carrera Ingeniería Civil Industrial</li>
+        <li class="list-group-item">Distinción por Proyecto de Titulación – IA aplicada a gestión industrial</li>
+        <li class="list-group-item">Beca de Excelencia Académica – Promedio superior a 6.5</li>
+        <li class="list-group-item">Certificación en Liderazgo Ágil – Dirección de equipos técnicos</li>
+      </ul>
+    </section>
+
+    <section id="portafolio">
+      <h2 class="section-title">Portafolio</h2>
+      <p>Accede a los proyectos desarrollados a lo largo de mi carrera:</p>
+      <a href="Portafolio.html" class="btn btn-outline-primary">Ver Portafolio</a>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Bruno Cavicchioli Núñez. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

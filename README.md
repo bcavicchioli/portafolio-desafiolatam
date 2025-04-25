@@ -3,9 +3,9 @@ BRUNO CAVICCHIOLI Pages
 
 
 Forkear a dos comapeñeros punto 4 y 5
-Forkeado a https://github.com/yonacamposs86 url del fork en su github: https://github.com/yonacamposs86/PortafolioCV
+Forkeado a https://github.com/yonacamposs86 url del fork en su github: https://github.com/bcavicchioli/PortafolioCV
 
-Forkeado a https://github.com/martanpegallo/CV_MartinPerezGallo url del fork en si github: https://github.com/yonacamposs86/CV_MartinPerezGallo
+Forkeado a https://github.com/martanpegallo/CV_MartinPerezGallo url del fork en si github: https://github.com/bcavicchioli/CV_MartinPerezGallo
 
 Reslpado de Commits
 Reslpado de NathySasha ![image] (https://github.com/yonacamposs86/Cv-Sasha-Godoy/commit/362ef1bf0ee284060010e35e7638752ccb4d4edf)
