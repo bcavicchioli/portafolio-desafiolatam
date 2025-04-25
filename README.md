@@ -1,11 +1,11 @@
 Curriculum BRUNO CAVICCHIOLI
 
-Forkear a dos comapeñeros punto 4 y 5
+Forkear a dos compañeros punto 4 y 5
 Forkeado a https://github.com/yonacamposs86 url del fork en su github: https://github.com/bcavicchioli/PortafolioCV
 
 Forkeado a https://github.com/martanpegallo/CV_MartinPerezGallo url del fork en si github: https://github.com/bcavicchioli/CV_MartinPerezGallo
 
 Reslpado de Commits
-Reslpado de NathySasha ![image] (https://github.com/yonacamposs86/Cv-Sasha-Godoy/commit/362ef1bf0ee284060010e35e7638752ccb4d4edf)
+Reslpado de yonathan ![image] (https://github.com/bcavicchioli/PortafolioCV/commit/35faece9e50e1e6f14df7610443955db93105c81)
 
-Resplado de MartinPerezGallo ![image] (https://github.com/yonacamposs86/CV_MartinPerezGallo/commit/038223e32288ac1dd9deba88a65503aaa0842e25)
+Resplado de MartinPerezGallo ![image] (https://github.com/bcavicchioli/CV_MartinPerezGallo/commit/df070861dafaa0e3cc6d0a898506e2e75c189355)
