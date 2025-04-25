@@ -1,6 +1,4 @@
 Curriculum BRUNO CAVICCHIOLI
-BRUNO CAVICCHIOLI Pages
-
 
 Forkear a dos comapeñeros punto 4 y 5
 Forkeado a https://github.com/yonacamposs86 url del fork en su github: https://github.com/bcavicchioli/PortafolioCV
